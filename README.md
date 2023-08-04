@@ -7,6 +7,10 @@ This PowerShell script continuously monitors the Windows Security log for Sensit
 ## Requirements
 
 - Windows OS with PowerShell 7.1 or later.
+- Audit Logon Events Enabled.
+    - `auditpol.exe /set '/subcategory:{0CCE9228-69AE-11D9-BED3-505054503030}' /success:enable`
+      - *Run in Powershell or add directly to script*
+
 
 ## Usage
 

@@ -14,7 +14,7 @@ This PowerShell script continuously monitors the Windows Security log for Sensit
 
 ## Usage
 
-1. Download the `WindowsSecurityLogMonitor.ps1` script to your local system.
+1. Download the `Admin_Watchdog.ps1` script to your local system.
 
 2. Open PowerShell with administrative privileges.
 

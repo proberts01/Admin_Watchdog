@@ -33,7 +33,9 @@ This PowerShell script continuously monitors the Windows Security log for Sensit
 ## Important Note
 
 - Continuous monitoring of the Security log may consume system resources over time. Monitor resource usage and consider running the script as a background task or service for extended use.
-
+- If you get the error:
+    - ```File \path\to\file cannot be loaded because running scripts is disabled on this system```
+    - Run the script via this command: ```powershell -ExecutionPolicy Bypass -File script.ps1```
 ---
 
 **Disclaimer:** This script is only provided for educational and informational purposes. Use it responsibly and ensure you have appropriate permissions to access and monitor Windows event logs.
